@@ -11,7 +11,8 @@ export function CounterContextProvider({children}) {
         const error = new Error('No such action called', action)
         const returnObj = {
             increment: { counterValue: state.counterValue + 1},
-            decrement: { counterValue: state.counterValue - 1}
+            decrement: { counterValue: state.counterValue - 1},
+            reset: { counterValue: 0 }
         }
 
         return returnObj[action] ? returnObj[action]: error

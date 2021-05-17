@@ -10,6 +10,7 @@ export default function Counter() {
             <button onClick={() => dispatch('increment')}>+</button>
             <h3>{counterValue}</h3>
             <button onClick={() => dispatch('decrement')}>-</button>
+            <button className="reset" onClick={() => dispatch('reset')}>Reset</button>
         </div>
     )
 }

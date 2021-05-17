@@ -62,7 +62,7 @@
 
 .counter {
   display: flex;
-  background-color: red;
+  background-color: #10130b;
   padding: 1vmin;
   gap: 1vmin;
 }
@@ -76,4 +76,10 @@
   border: none;
   background: blue;
   border-radius: 50%;
+}
+
+.counter .reset {
+  border-radius: 1vmin;
+  width: 10vmin;
+  background-color: red;
 }
