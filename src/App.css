@@ -24,6 +24,12 @@
   height: 90%;
 }
 
+.sidebar p {
+  width: 100%;
+  padding: 1vmin;
+  border: 1px solid #ee3;
+}
+
 .content {
   background-color: green;
   width: 75%;
@@ -40,10 +46,34 @@
   padding: 2vmin;
   color: white;
   font-size: 1.5rem;
+  flex-direction: column;
+}
+
+.nav-bar {
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .content p {
   font-size: 1.5rem;
   font-weight: 400;
   text-align: justify;
+}
+
+.counter {
+  display: flex;
+  background-color: red;
+  padding: 1vmin;
+  gap: 1vmin;
+}
+
+.counter button {
+  background-color: transparent;
+  color: white;
+  padding: 1vmin;
+  width: 5vmin;
+  height: 5vmin;
+  border: none;
+  background: blue;
+  border-radius: 50%;
 }
